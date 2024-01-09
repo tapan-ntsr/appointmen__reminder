@@ -315,11 +315,7 @@ h1:nth-of-type(3) {
 /* Design 8 CSS */
 
 .container.design-8 {
-  background: linear-gradient(
-    90deg,
-    rgba(40, 60, 90, 1) 0%,
-    rgb(0, 0, 0) 100%
-  );
+  background: linear-gradient(90deg, rgba(40, 60, 90, 1) 0%, rgb(0, 0, 0) 100%);
   max-width: 70%;
   margin: 0 auto;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
@@ -328,11 +324,7 @@ h1:nth-of-type(3) {
 }
 
 .container-time.design-8 {
-  background: linear-gradient(
-    90deg,
-    rgba(40, 60, 90, 1) 0%,
-    rgb(0, 0, 0) 100%
-  );
+  background: linear-gradient(90deg, rgba(40, 60, 90, 1) 0%, rgb(0, 0, 0) 100%);
   padding: 20px;
   text-align: center;
 }
@@ -423,4 +415,62 @@ select.design-8,
 .btn.design-8:hover {
   transform: scale(1.05);
   box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Design 6 CSS */
+.container.design-6 {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 100, 92, 1) 0%,
+    rgb(0, 17, 62) 100%
+  );
+  max-width: 90%; /* Adjusted max-width for better responsiveness */
+  margin: 0 auto;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-time.design-6 {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 100, 92, 1) 0%,
+    rgb(0, 14, 49) 100%
+  );
+  padding: 20px;
+  text-align: center;
+}
+
+/* ... other styles remain unchanged ... */
+
+@media screen and (max-width: 768px) {
+  .container.design-6 {
+    max-width: 100%; /* Adjusted for smaller screens */
+    grid-template-columns: 1fr; /* Adjusted to a single column layout on small screens */
+  }
+}
+
+/* Design 8 CSS */
+.container.design-8 {
+  background: linear-gradient(90deg, rgba(40, 60, 90, 1) 0%, rgb(0, 0, 0) 100%);
+  max-width: 90%; /* Adjusted max-width for better responsiveness */
+  margin: 0 auto;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-time.design-8 {
+  background: linear-gradient(90deg, rgba(40, 60, 90, 1) 0%, rgb(0, 0, 0) 100%);
+  padding: 20px;
+  text-align: center;
+}
+
+/* ... other styles remain unchanged ... */
+
+@media screen and (max-width: 768px) {
+  .container.design-8 {
+    max-width: 100%; /* Adjusted for smaller screens */
+    grid-template-columns: 1fr; /* Adjusted to a single column layout on small screens */
+  }
 }
