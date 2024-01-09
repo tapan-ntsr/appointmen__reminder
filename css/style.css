@@ -239,7 +239,7 @@ select.design-4 {
 
 .container-form.design-6 {
   padding: 20px; /* Adjust the padding to reduce the height */
-  color: #000000;
+  color: #ffffff;
 }
 
 form.design-6 {
@@ -260,7 +260,7 @@ form.design-6 p {
 input.design-6,
 select.design-6 {
   padding: 12px;
-  width: 500px;
+  width: 50px;
   box-sizing: border-box;
   font-size: 18px;
   transition: all 0.3s;
@@ -325,21 +325,23 @@ h1:nth-of-type(3) {
 
 .container-time.design-8 {
   background: linear-gradient(90deg, rgba(40, 60, 90, 1) 0%, rgb(0, 0, 0) 100%);
-  padding: 20px;
-  text-align: center;
+  padding: 50px;
+  max-width: 800px;
+  text-align: left;
+
+  
 }
 
-.heading.design-8 {
-  font-size: 32px;
-  text-transform: uppercase;
-  color: #fff;
+.container-design-8 {
+  max-width: 400px; /* Adjust the max-width according to your layout */
+  margin: 0 auto;  /* Center the container horizontally */
+  padding: 10px;   /* Add padding to create space between the text and the container edge */
+  background-color: #333;  /* Background color of the container */
 }
 
+.heading.design-8,
 .heading-days.design-8 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: #fff;
-  font-size: 24px;
+  max-width: 120%;  /* Make sure the headings don't overflow the container */
 }
 
 .heading-phone.design-8 {
@@ -348,7 +350,7 @@ h1:nth-of-type(3) {
 
 .container-form.design-8 {
   padding: 40px;
-  color: #000000;
+  color: #3498db;
 }
 
 form.design-8 {
@@ -370,7 +372,7 @@ input.design-8,
 select.design-8,
 .checkbox-group.design-8 {
   padding: 12px;
-  width: 500px;
+  width: fit-content;
   box-sizing: border-box;
   font-size: 18px;
   transition: all 0.3s;
